@@ -7,13 +7,7 @@
   </url>
   
   <url>
-    <loc>http://czers.pl/post/empty-post/</loc>
-    <lastmod>2017-04-07T22:17:56+02:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://czers.pl/tags/</loc>
-    <lastmod>2017-04-07T22:17:56+02:00</lastmod>
+    <loc>http://czers.pl/tags/azure/</loc>
     <priority>0</priority>
   </url>
   
@@ -23,19 +17,26 @@
   </url>
   
   <url>
-    <loc>http://czers.pl/categories/drafts/</loc>
-    <lastmod>2017-04-07T22:17:56+02:00</lastmod>
-    <priority>0</priority>
+    <loc>http://czers.pl/post/azure-firewall-cli-configuration/</loc>
   </url>
   
   <url>
     <loc>http://czers.pl/post/</loc>
-    <lastmod>2017-04-07T22:17:56+02:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://czers.pl/tags/streisand/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>http://czers.pl/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://czers.pl/categories/tech/</loc>
     <priority>0</priority>
   </url>
   

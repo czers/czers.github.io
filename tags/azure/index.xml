@@ -1,61 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>czers.pl</title>
-    <link>http://czers.pl/index.xml</link>
-    <description>Recent content on czers.pl</description>
+    <title>Azure on czers.pl</title>
+    <link>http://czers.pl/tags/azure/index.xml</link>
+    <description>Recent content in Azure on czers.pl</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-US</language>
-    <lastBuildDate>Sat, 08 Apr 2017 21:00:00 +0200</lastBuildDate>
-    <atom:link href="http://czers.pl/index.xml" rel="self" type="application/rss+xml" />
-    
-    <item>
-      <title>About</title>
-      <link>http://czers.pl/about/</link>
-      <pubDate>Sat, 08 Apr 2017 21:00:00 +0200</pubDate>
-      
-      <guid>http://czers.pl/about/</guid>
-      <description>
-
-&lt;h2 id=&#34;about-me&#34;&gt;About me&lt;/h2&gt;
-
-&lt;p&gt;Hi! My name is Michał Czerski. I live in Sopot and work in Gdańsk, both of
-which are parts of &lt;a href=&#34;https://en.wikipedia.org/wiki/Tricity,_Poland&#34;&gt;Tricity area&lt;/a&gt; in Poland. By day, I am
-&lt;a href=&#34;http://ihsgdansk.com/&#34;&gt;an enterprise C# web developer&lt;/a&gt; with keen interest in security
-&amp;amp; DevOps. By night, I am &lt;del&gt;Batman&lt;/del&gt;. Oops, almost gave it away.&lt;/p&gt;
-
-&lt;p&gt;My favorite pastime activites include cooking, reading, taking photos and
-protecting my sanity while balancing privacy and usability in modern web.&lt;/p&gt;
-
-&lt;p&gt;You can find me on following sites:&lt;/p&gt;
-
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&#34;https://github.com/czers&#34;&gt;GitHub&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.facebook.com/michal.czerski&#34;&gt;Facebook&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&#34;https://www.linkedin.com/in/michalczerski&#34;&gt;LinkedIn&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&#34;postcard&#34;&gt;Do you like content on this site? Send me a postcard!&lt;/h2&gt;
-
-&lt;p&gt;If you found content on this site useful, funny or in any other way
-interesting, know that I love getting postcards. If you want, you can send me
-one to the following address:&lt;/p&gt;
-
-&lt;blockquote&gt;
-&lt;p&gt;Michał Czerski&lt;br /&gt;
-IHS Global sp. z o.o.&lt;br /&gt;
-Jaśkowa Dolina 15&lt;br /&gt;
-80-252 Gdańsk&lt;br /&gt;
-POLAND&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h2 id=&#34;about-this-site&#34;&gt;About this site&lt;/h2&gt;
-
-&lt;p&gt;This site has been created using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo static site generator&lt;/a&gt; using
-&lt;a href=&#34;https://comfusion.github.io/after-dark/&#34;&gt;After Dark theme&lt;/a&gt; and &lt;a href=&#34;http://ethanschoonover.com/solarized&#34;&gt;Solarized Dark palette&lt;/a&gt;.
-You can find site&amp;rsquo;s source code on &lt;a href=&#34;https://github.com/czers/czers.github.io&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
-</description>
-    </item>
+    <atom:link href="http://czers.pl/tags/azure/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>How to configure Azure firewall using CLI</title>
