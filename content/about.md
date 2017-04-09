@@ -2,6 +2,8 @@
 date = "2017-04-08T21:00:00+02:00"
 title = "About"
 description = ""
+menu = "main"
+weight = 3
 
 +++
 
