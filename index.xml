@@ -53,7 +53,12 @@ POLAND&lt;/p&gt;
 
 &lt;p&gt;This site has been created using &lt;a href=&#34;https://gohugo.io/&#34;&gt;Hugo static site generator&lt;/a&gt; using
 &lt;a href=&#34;https://comfusion.github.io/after-dark/&#34;&gt;After Dark theme&lt;/a&gt; and &lt;a href=&#34;http://ethanschoonover.com/solarized&#34;&gt;Solarized Dark palette&lt;/a&gt;.
-You can find site&amp;rsquo;s source code on &lt;a href=&#34;https://github.com/czers/czers.github.io&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+You can find this site&amp;rsquo;s source code on &lt;a href=&#34;https://github.com/czers/czers.github.io&#34;&gt;GitHub&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;This site uses self-hosted analytics platform called &lt;a href=&#34;https://piwik.org/&#34;&gt;Piwik&lt;/a&gt;.
+Do Not Track (DNT) headers are respected - you won&amp;rsquo;t be tracked if your
+browser sends DNT header. If allowed to track traffic, Piwik will anonymise
+all IP addresses.&lt;/p&gt;
 </description>
     </item>
     
