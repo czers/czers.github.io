@@ -39,7 +39,12 @@ one to the following address:
 
 This site has been created using [Hugo static site generator][hugo] using
 [After Dark theme][after-dark] and [Solarized Dark palette][solarized].
-You can find site's source code on [GitHub][site-repo].
+You can find this site's source code on [GitHub][site-repo].
+
+This site uses self-hosted analytics platform called [Piwik][piwik].
+Do Not Track (DNT) headers are respected - you won't be tracked if your
+browser sends DNT header. If allowed to track traffic, Piwik will anonymise
+all IP addresses.
 
 [tricity]: https://en.wikipedia.org/wiki/Tricity,_Poland
 [ihs-gdansk]: http://ihsgdansk.com/
@@ -47,3 +52,4 @@ You can find site's source code on [GitHub][site-repo].
 [after-dark]: https://comfusion.github.io/after-dark/
 [solarized]: http://ethanschoonover.com/solarized
 [site-repo]: https://github.com/czers/czers.github.io
+[piwik]: https://piwik.org/
