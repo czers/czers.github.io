@@ -20,6 +20,12 @@ footnoteReturnLinkContents = "↩" # Provides a nicer footnote return link
   images = [] # Suggested, controls default OpenGraph images
   theme_variant = "solarized-dark" # Optional, for use to overriding default theme
 
+[params.seo.webmaster_verifications]
+  google = "Jz4d9KIj3uoXyQJROomPLGP6y7J1XhCVC0ydV9SEwbU" # Optional, Google verification code
+  bing = "C168EC3D6381D674B7B69DA95EB32F10" # Optional, Bing verification code
+  yandex = "c691d1410e28a4db" # Optional, Yandex verification code
+  alexa = "" # Optional, Alexa verification code
+
 [[menu.main]]
   name = "Home"
   weight = 1
