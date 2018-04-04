@@ -14,7 +14,11 @@
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>http://czers.pl/post/azure-firewall-cli-configuration/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;ve ran into some problems recently while trying to setup multiple instances
+      <description>&lt;p&gt;&lt;br/&gt;
+&lt;strong&gt;UPDATE 2018-03-02&lt;/strong&gt;: Streisand project now allows fully automatic creation of
+VPN server instances. Hurray!&lt;/p&gt;
+
+&lt;p&gt;I&amp;rsquo;ve ran into some problems recently while trying to setup multiple instances
 of &lt;a href=&#34;https://github.com/jlund/streisand&#34;&gt;Streisand VPN&lt;/a&gt;. It seems that on Microsoft Azure there&amp;rsquo;s no easy
 way to copy or export/import firewall (Network Security Group - NSG)
 configuration between different virtual machines using Azure Portal.&lt;/p&gt;
@@ -42,7 +46,6 @@ Name                                  CloudName    SubscriptionId               
 ------------------------------------  -----------  ------------------------------------  -------  -----------
 Visual Studio Professional with MSDN  AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled  True
 Visual Studio Enterprise with MSDN    AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled
 &lt;/pre&gt;&lt;/div&gt;
 
 
