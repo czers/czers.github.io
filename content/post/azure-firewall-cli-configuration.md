@@ -1,13 +1,18 @@
 +++
 publishdate = "2017-04-09"
+lastmod = "2018-03-02"
 title = "How to configure Azure firewall using CLI"
+description = "Configuring Azure Network Security Groups using Azure CLI 2.0"
 tags = ["azure", "streisand"]
 categories = ["tech"]
 draft = false
-description = "Configuring Azure Network Security Groups using Azure CLI 2.0"
 toc = true
 
 +++
+
+<br/>
+**UPDATE 2018-03-02**: Streisand project now allows fully automatic creation of
+VPN server instances. Hurray!
 
 I've ran into some problems recently while trying to setup multiple instances
 of [Streisand VPN][streisand]. It seems that on Microsoft Azure there's no easy
@@ -38,7 +43,6 @@ Name                                  CloudName    SubscriptionId               
 ------------------------------------  -----------  ------------------------------------  -------  -----------
 Visual Studio Professional with MSDN  AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled  True
 Visual Studio Enterprise with MSDN    AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled
-AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA       AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled
 {{< /highlight >}} 
 
 To choose default subscription run:
