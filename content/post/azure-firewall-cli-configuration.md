@@ -12,7 +12,7 @@ toc = true
 
 <br/>
 **UPDATE 2018-03-02**: Streisand project now allows fully automatic creation of
-VPN server instances. Hurray!
+VPN server instances at Azure. Hurray!
 
 I've ran into some problems recently while trying to setup multiple instances
 of [Streisand VPN][streisand]. It seems that on Microsoft Azure there's no easy
