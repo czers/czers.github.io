@@ -1,0 +1,55 @@
+<!--{{/*
+
+This is After Dark 'figure' shortcode extended to automatically apply
+responsive image resizing.
+
+Original comment below:
+
+Like the Hugo built-in, but easier to grok with Lazy Loading and LQIP support.
+
+Basic usage:
+{{< figure src="https://i.supload.com/r1gXlwuXiZ.png" link="https://supload.com/r1gXlwuXiZ" caption="Ethereum value explosion in 2017. You do the math." >}}
+
+Internal usage reference:
+https://gohugo.io/content-management/shortcodes/#figure
+*/}}-->
+
+{{ $src := (.Page.Resources.GetMatch (.Get "src")) }}
+
+{{ $image600 := $src.Fill "600x338 q60 Center" }}
+{{ $image900 := $src.Fill "900x506 q70 Center" }}
+{{ $image1200 := $src.Fill "1200x675 q80 Center" }}
+{{ $image1600 := $src.Fill "1600x900 q90 Center" }}
+
+{{ $caption := .Get "caption" }}
+{{ $link := .Get "link" }}
+{{ $linktarget := .Get "linktarget" }}
+{{ $attr := .Get "attr" }}
+{{ $attrlink := .Get "attrlink" }}
+{{ $alt := .Get "alt" }}
+{{ $title := .Get "title" }}
+{{ $class := .Get "class" }}
+
+<figure{{ with $class }} class="{{ . }}"{{ end }}>
+  {{ with $link }}<a href="{{ . }}"{{ if $linktarget }} target="{{ $linktarget }}"{{ end }}{{ if eq $linktarget "_blank" }} rel="external noopener noreferrer"{{ end }}>{{ end }}
+
+  <img class="lazyload blur-up"
+    src="{{ $image600.RelPermalink }}"
+    data-sizes="auto"
+    data-src="{{ $image1200.RelPermalink }}"
+    data-srcset="{{ $image600.RelPermalink }} 600w, {{ $image900.RelPermalink }} 900w, {{ $image1200.RelPermalink }} 1200w, {{ $image1600.RelPermalink }} 1600w"
+    {{ if or $alt $caption }}alt="{{ with $alt }}{{ . }}{{ else }}{{ $caption }}{{ end }}"{{ end }} />
+
+  {{ if $link }}</a>{{ end }}
+  {{ if or (or $title $caption) $attr }}
+  <figcaption>{{ if isset .Params "title" }}
+    <header><b>{{ $title }}</b></header>{{ end }}
+    {{ if or $caption $attr }}
+    <small>{{ $caption }}
+    {{ with $attrlink }}<a href="{{ . }}"> {{ end }}
+      {{ $attr }}
+    {{ if $attrlink }}</a> {{ end }}
+    </small>{{ end }}
+  </figcaption>
+  {{ end }}
+</figure>

@@ -5,3 +5,7 @@
 table.highlighttable tbody td:first-child {
     font-weight: normal;
 }
+article img {
+    width: 100%;
+    border-radius: 3px;
+}
