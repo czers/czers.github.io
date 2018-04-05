@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
     <loc>http://czers.pl/about/</loc>
     <lastmod>2017-04-08T21:00:00+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://czers.pl/post/azure-firewall-cli-configuration/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -15,11 +21,6 @@
   <url>
     <loc>http://czers.pl/categories/</loc>
     <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>http://czers.pl/post/azure-firewall-cli-configuration/</loc>
-    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -36,6 +37,7 @@
   
   <url>
     <loc>http://czers.pl/tags/</loc>
+    <lastmod>2018-03-02T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
