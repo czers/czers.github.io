@@ -31,8 +31,8 @@ one to the following address:
 
 > Michał Czerski  
 > IHS Global sp. z o.o.  
-> Jaśkowa Dolina 15  
-> 80-252 Gdańsk  
+> ul. Marynarki Polskiej 163  
+> 80-868 Gdańsk  
 > POLAND
 
 ## About this site
