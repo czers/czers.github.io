@@ -19,7 +19,7 @@
       <guid>http://czers.pl/post/azure-firewall-cli-configuration/</guid>
       <description>&lt;p&gt;&lt;br/&gt;
 &lt;strong&gt;UPDATE 2018-03-02&lt;/strong&gt;: Streisand project now allows fully automatic creation of
-VPN server instances. Hurray!&lt;/p&gt;
+VPN server instances at Azure. Hurray!&lt;/p&gt;
 
 &lt;p&gt;I&amp;rsquo;ve ran into some problems recently while trying to setup multiple instances
 of &lt;a href=&#34;https://github.com/jlund/streisand&#34;&gt;Streisand VPN&lt;/a&gt;. It seems that on Microsoft Azure there&amp;rsquo;s no easy
