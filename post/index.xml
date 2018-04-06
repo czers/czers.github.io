@@ -33,7 +33,7 @@ VPN server instances at Azure. Hurray!&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve ran into some problems recently while trying to setup multiple instances
 of &lt;a href=&#34;https://github.com/jlund/streisand&#34;&gt;Streisand VPN&lt;/a&gt;. It seems that on Microsoft Azure there&amp;rsquo;s no easy
 way to copy or export/import firewall (Network Security Group - NSG)
-configuration between different virtual machines using Azure Portal.&lt;/p&gt;
+configuration between different resource groups using Azure Portal.&lt;/p&gt;
 
 &lt;p&gt;Fortunately, Azure has &lt;a href=&#34;https://docs.microsoft.com/en-us/cli/azure/overview&#34;&gt;a CLI&lt;/a&gt; (version 2.0 now) available which
 can be used to setup network security groups in an automated fashion.&lt;/p&gt;

@@ -305,7 +305,7 @@ VPN server instances at Azure. Hurray!</p>
 <p>I&rsquo;ve ran into some problems recently while trying to setup multiple instances
 of <a href="https://github.com/jlund/streisand">Streisand VPN</a>. It seems that on Microsoft Azure there&rsquo;s no easy
 way to copy or export/import firewall (Network Security Group - NSG)
-configuration between different virtual machines using Azure Portal.</p>
+configuration between different resource groups using Azure Portal.</p>
 
 <p>Fortunately, Azure has <a href="https://docs.microsoft.com/en-us/cli/azure/overview">a CLI</a> (version 2.0 now) available which
 can be used to setup network security groups in an automated fashion.</p>
@@ -475,8 +475,8 @@ az network nsg rule create --resource-group $RG_NAME --nsg-name $NSG_NAME <span 
 </span><span style="color:#ae81ff"></span>	--name allow-openconnect <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	--priority <span style="color:#ae81ff">1040</span> <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	--destination-port-range <span style="color:#ae81ff">4443</span> <span style="color:#ae81ff">\
-</span><span style="color:#ae81ff"></span>	--protocol &amp;<span style="color:#75715e">#39;*&amp;#39;
-</span><span style="color:#75715e"></span>
+</span><span style="color:#ae81ff"></span>	--protocol <span style="color:#e6db74">&#39;*&#39;</span>
+
 <span style="color:#75715e"># Shadowsocks
 </span><span style="color:#75715e"></span>az network nsg rule create --resource-group $RG_NAME --nsg-name $NSG_NAME <span style="color:#ae81ff">\
 </span><span style="color:#ae81ff"></span>	--name allow-shadowsocks <span style="color:#ae81ff">\
@@ -514,9 +514,9 @@ az network nsg rule create --resource-group $RG_NAME --nsg-name $NSG_NAME <span 
 </div>
 
 <p>You can find all the code from this post in <a href="https://gist.github.com/czers/22b7aa45a0a256c1d93b63bb3c36ec22">this Gist</a>. If you have any
-comments, <a href="http://czers.pl/about/">About page</a> has some info on how to reach me.</p>
+comments, <a href="/about/">About page</a> has some info on how to reach me.</p>
 
-<p>If you like this post, <a href="http://czers.pl/about/#postcard">send me a postcard!</a></p>
+<p>If you like this post, <a href="/about/#postcard">send me a postcard!</a></p>
     </div>
     
     <footer>
