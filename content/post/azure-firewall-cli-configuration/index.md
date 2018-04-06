@@ -17,7 +17,7 @@ VPN server instances at Azure. Hurray!
 I've ran into some problems recently while trying to setup multiple instances
 of [Streisand VPN][streisand]. It seems that on Microsoft Azure there's no easy
 way to copy or export/import firewall (Network Security Group - NSG)
-configuration between different virtual machines using Azure Portal.
+configuration between different resource groups using Azure Portal.
 
 Fortunately, Azure has [a CLI][azure-cli] (version 2.0 now) available which
 can be used to setup network security groups in an automated fashion.
@@ -33,7 +33,7 @@ use:
 
 {{< highlight shell >}}
 $ az account list --output table
-{{< /highlight >}} 
+{{< /highlight >}}
 
 This will produce output like this:
 
@@ -43,7 +43,7 @@ Name                                  CloudName    SubscriptionId               
 ------------------------------------  -----------  ------------------------------------  -------  -----------
 Visual Studio Professional with MSDN  AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled  True
 Visual Studio Enterprise with MSDN    AzureCloud   XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX  Enabled
-{{< /highlight >}} 
+{{< /highlight >}}
 
 To choose default subscription run:
 
@@ -61,13 +61,13 @@ The following script sets up all the rules needed by the current (April 2017)
 version of Streisand VPN. Assign VM's resource group name to `RG_NAME` and its security group name to `NSG_NAME`.
 
 {{< highlight shell "linenos=table" >}}
-{{< readFile "snippets/azure-firewall-cli-configuration/streisand.sh" >}}
+{{< readFile "post/azure-firewall-cli-configuration/snippets/streisand.sh" >}}
 {{< /highlight >}}
 
 You can find all the code from this post in [this Gist][gist]. If you have any
-comments, [About page]({{< ref "about.md" >}}) has some info on how to reach me.
+comments, [About page]({{< relref "about.md" >}}) has some info on how to reach me.
 
-If you like this post, [send me a postcard!]({{< ref "about.md#postcard" >}})
+If you like this post, [send me a postcard!]({{< relref "about.md#postcard" >}})
 
 [streisand]: https://github.com/jlund/streisand
 [azure-cli]: https://docs.microsoft.com/en-us/cli/azure/overview
