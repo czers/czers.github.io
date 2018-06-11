@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>http://czers.pl/post/pour-over-recipe-for-coffee-with-black-tea-flavor/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>http://czers.pl/post/hario-skerton-pour-over/</loc>
     <lastmod>2018-04-05T00:00:00+00:00</lastmod>
   </url>
@@ -30,7 +35,7 @@
   
   <url>
     <loc>http://czers.pl/categories/coffee/</loc>
-    <lastmod>2018-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -42,7 +47,19 @@
   
   <url>
     <loc>http://czers.pl/post/</loc>
-    <lastmod>2018-04-05T00:00:00+00:00</lastmod>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://czers.pl/tags/pour-over/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://czers.pl/tags/recipe/</loc>
+    <lastmod>2018-06-11T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
